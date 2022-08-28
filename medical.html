@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+<title>Medical history</title>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/sytle.css" rel="stylesheet">
+<link href="css/all.min.css">
+</head>
+<body id="body">
+    <img class="imbo bg-light" src="img/img4new.jpg">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fa-solid fa-stethoscope"></i>
+        <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="task.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reservation</a>
+            </li>
+        
+          </ul>
+         
+        </div>
+      </nav>
+</header>
+
+    <div>
+        <div id="mySidepanel" class="sidepanel" >
+            <span class="sideright">
+
+                <button class="openbtn" id="openbtn" ><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+            <button class="closebtn " id="closebtn">&times;</button>
+            <a class="menuitem mt-5 " href="addnew.html">Basic Info</a>
+            <a class="menuitem  text-light menufocus" href="medical.html">Medical History</a>
+            <a class="menuitem" href="insurance.html">Insurance</a>
+            <a class="menuitem" href="Complains.html">Complains</a>
+
+
+          </span>
+        </div>
+        <div class="row maincon" id="maincon">
+            <span class="fixedinput">
+                <div class="col-1"><h5> Name :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedname">Engy Fayek Adeeb</p></div>
+                <div  class="col-1"><h5>ID :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedid" >29711010100634</p></div>
+  
+            </span >
+            <!-- <main class="row mesuarements">
+              <div class="col-lg-3 col-m-10 mesuareitem">
+                <img src="img/da8t.jpg" alt="">
+              </div>
+              <div  class="col-lg-3 col-m-10 mesuareitem">
+                <img src="img/7rara.jpg" alt="">
+              </div>
+              <div  class="col-lg-3 col-m-10 mesuareitem" >
+                <img src="img/sokr.jpg" alt="">
+              </div>
+
+            </main> -->
+
+            <main class="row history">
+              <section>
+                <button class="newbtn col-4 disabled">
+                  Surgiries :عمليات جراحية  
+                </button>
+                <div class="container addition" id="addition">
+                  <div class="surgiries row">
+                    <label><input type="checkbox" class="choice" value="Appendectomy">Appendectomy (الزايدة)</label>
+                  </div>
+                  <div class="surgiries row">
+                    <label><input type="checkbox" class="choice" value="Open heart">Open heart  (قلب مفتوح)</label>
+                  </div>
+                  <div class="surgiries row">
+                    <label><input type="checkbox" class="choice" value="Gallbladder operation ">Gallbladder operation  (مرارة)</label>
+                  </div>
+                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries " id="other">
+          
+                </div>
+
+              </section>
+              <section>
+              <button class="newbtn col-4 disabled">
+                Chronic Diseases ( امراض مزمنة  )
+              </button>
+              <div class="container addition" id="additionn">
+                <div class="surgiries row">
+                  <label><input type="checkbox" class="choice2" value="High pressure" >High pressure (الضغط المرتفع)</label>
+                </div>
+                <div class="surgiries row">
+                  <label><input type="checkbox" class="choice2" value="Low pressure">Low pressure  (الضغط المنخفض)</label>
+                </div>
+                <div class="surgiries row">
+                  <label><input type="checkbox" class="choice2" value="Heart disease">Heart disease  (القلب)</label>
+                </div>
+                <div class="surgiries row">
+                  <label><input type="checkbox" class="choice2" value="Diabetes">Diabetes (السكر)</label>
+                </div>
+                  <input type="text" placeholder="Other  (اخرى)" class=" surgiries" id="other2">
+                
+              </div>
+
+              
+              </section> 
+
+              <section>
+                <button class="newbtn col-4 disabled">
+                  Allergtic :حساسية  
+                </button>
+                <div class="container addition" id="additionnn">
+                  <div class="surgiries row">
+                    <label><input type="checkbox" class="choice3" value="Chest">Chest (الصدر)</label>
+                  </div>
+                  <div class="surgiries row">
+                    <label><input type="checkbox" class="choice3" value="Sinuses">Sinuses (جيوب انفية)</label>
+                  </div>
+                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries" id="other3">
+                </div>
+  
+                
+                </section> 
+                <section class="row">
+                  
+                  <section>
+                    <button class="newbtn col-5  surgiries ">
+                    Blood type :فصيلة الدم  
+                  </button>
+                     <select id="Blood" class="surgiries newbtn " style="border: none; background-color :rgba(255, 255, 255, 0.52) ; font-weight: 500;">
+                      <option selected="true" disabled="disabled" >choose one</option>
+                      <option value="A">A</option>
+                      <option value="A-">A-</option>
+                      <option value="A+">A+</option>
+                      <option value="B">B</option>
+                      <option value="B-">B-</option>
+                      <option value="B+">B+</option>
+                      <option value="O">O</option>
+                      <option value="O-">O-</option>
+                      <option value="O+">O+</option>
+                      <option value="AB">AB</option>
+                      <option value="AB-">AB-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="not known">not known</option>
+          
+                    </select>
+                    <div>
+                      <button onclick="historyadded()" class="btn submit col-2 mt-1" style="font-size: 20px;">Submit</button>
+                    </div>
+                  </section>
+                  </section> 
+                  
+
+            </main>
+            
+        </div>
+    </div>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+      <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+    </svg> 
+     
+<script src="js/all.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+
+</body>

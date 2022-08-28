@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+<title>Medical history</title>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/sytle.css" rel="stylesheet">
+<link href="css/all.min.css">
+</head>
+<body >
+    <img class="imbo bg-light" src="img/img4new.jpg">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fa-solid fa-stethoscope"></i>
+        <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="task.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reservation</a>
+            </li>
+        
+          </ul>
+         
+        </div>
+      </nav>
+</header>
+
+    <div>
+        <div id="mySidepanel" class="sidepanel">
+            <span class="sideright">
+
+                <button class="openbtn" id="openbtn" ><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+            <button class="closebtn " id="closebtn">&times;</button>
+            <a class="menuitem mt-5 " href="addnew.html">basic info</a>
+            <a class="menuitem " href="medical.html">Medical history</a>
+            <a class="menuitem" href="insurance.html">insurance</a>
+            <a class="menuitem menufocus text-light" href="Complains.html">Complains</a>
+
+
+          </span>
+        </div>
+        <div class="row maincon" id="maincon">
+            <!-- <span class="fixedinput">
+                <div class="col-1"><h5> Name :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedname" class="inputplace"></p></div>
+                <div  class="col-1"><h5>ID :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedid" class="inputplace"></p></div>
+  
+            </span > -->
+            <main class="data row Contact">
+                <nav class="">
+                    <label>
+                        Complain Category :
+                    </label>
+                    <div>
+                      <select class="forminput w-50 mt-4 pl-5">
+                        <option selected="true" disabled="disabled" >choose one</option>
+                        <option>Doctor</option>
+                        <option>Secertary</option>
+                        <option>Hygiene</option>
+                        <option>Reservation</option>
+                        <option >Other</option>
+  
+                      </select>
+                    </div>
+                    <!-- <input type="email" class="forminput col-10 h-50 mt-2"> -->
+                   
+                </nav>
+               <nav class="mt-0 datasection">
+                <label>
+                   Message :
+                </label>
+                <input type="text" class="forminput col-10 h-75 mt-2 ">
+               </nav>
+                
+                <div >
+                    <button class="btn submit col-2 mt-4" >send</button>
+                </div>
+
+
+            </main>
+            
+        </div>
+
+    </div>
+
+<script src="js/all.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+
+</body>

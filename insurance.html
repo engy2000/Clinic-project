@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+<title>Medical insurance</title>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/sytle.css" rel="stylesheet">
+<link href="css/all.min.css">
+</head>
+<body >
+    <img class="imbo bg-light" src="img/img4new.jpg" style="overflow:hidden ;">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fa-solid fa-stethoscope"></i>
+        <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="task.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reservation</a>
+            </li>
+        
+          </ul>
+         
+        </div>
+      </nav>
+</header>
+
+    <div>
+        <div id="mySidepanel" class="sidepanel">
+            <span class="sideright">
+
+                <button class="openbtn" id="openbtn" ><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+            <button class="closebtn " id="closebtn">&times;</button>
+            <a class="menuitem mt-5 " href="addnew.html">Basic Info</a>
+            <a class="menuitem " href="medical.html">Medical History</a>
+            <a class="menuitem menufocus text-light" href="insurance.html">Insurance</a>
+            <a class="menuitem" href="Complains.html">Complains</a>
+
+
+          </span>
+        </div>
+        <div class="row maincon" id="maincon">
+            <span class="fixedinput">
+                <div class="col-1"><h5> Name :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedname" >Engy Fayek Adeeb</p></div>
+                <div  class="col-1"><h5>ID :</h5></div>
+                <div  class="col-3 mt-2"><p id="fixedid" >29711010100634</p></div>
+  
+            </span >
+            <form class="insurance row" >
+              <div class="form-group row">
+                <label class="col-4">insurance agency</label>
+                <select class="forminput col-5 ">
+                  <option class="col-2">Bank Masr</option>
+                  <option class="col-2">CIB Bank</option>
+                  <option class="col-2">Engineers Syndicate</option>
+                  <option class="col-2">Doctors Syndicate</option>
+                  <option class="col-2">Lawyers Syndicate</option>
+
+                </select>
+              </div>
+
+              <div  class="form-group">
+                <label class="col-4">Precentage</label>
+                <input type="tel" class="col-3 forminput">
+              </div>
+
+              <div class="form-group">
+                <label class="col-4">Insurance ID</label>
+                <input class="col-3 forminput" type="tel">
+              </div>
+
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class=" col-4 pt-0">Category</legend>
+                  <div class="col-4">
+                    <div class="form-check">
+                      <input class="form-check-input"  name="gridRadios" type="radio" >
+                      <label class="form-check-label col-4" for="gridRadios1">
+                      A
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input"  name="gridRadios" type="radio" >
+                      <label class="form-check-label col-4" >
+                        B
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input"  name="gridRadios" type="radio">
+                      <label class="form-check-label col-4" >
+                        C
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+                 
+
+              <div class="form-group">
+                <label class="col-4">Insurance File</label>
+                <input type="file" class="form-control-file">
+              </div>
+<div>
+              <button class="btn submit col-2">Submit</button>
+            </div>
+
+            </form>
+            
+    
+        </div>
+    </div>
+
+<script src="js/all.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+
+</body>

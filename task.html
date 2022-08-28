@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>Clinic Home</title>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/sytle.css" rel="stylesheet">
+<link href="css/all.min.css">
+</head>
+<body class ="bo ">
+   
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fa-solid fa-stethoscope"></i>
+        <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reservation</a>
+            </li>
+        
+          </ul>
+          <div class="msg" id="msgerr">
+            you should fill the id form
+       </div>
+        </div>
+      </nav>
+</header>
+<div class="container con" >
+    <span class="ins col">
+        <main class="row content topcon" >
+            <label class="col-lg-2 col-m-1"for="name">Name : </label>
+            <input class =" col-8 inputs " type="text" placeholder="Enter Your Name" id="name">
+        </main>
+       <main class="row content">
+            <label class="col-2" for="id">ID : </label>
+            <input  class =" col-8 inputs"  type="number" placeholder="Enter Your ID" id="id" min="100000000000000" max="99999999999999" required>
+       </main>
+       <main  class="row twobtn">
+        <button onclick="addnew()" class="btn btn-primary col-4 editbtn">
+             <a href="#">
+                Search 
+               </a>  
+        </button>
+        <button onclick="addnew()" class="btn btn-warning col-4 editbtn">
+           <a href="#" >
+            Add New 
+           </a> 
+        </button>
+       </main>
+       
+       <img class="doctor" src="img/img1.jpg" alt="">
+       
+    </span>
+   
+<div id="fixedname"></div>
+</div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+
+</body>

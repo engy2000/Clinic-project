@@ -10,7 +10,7 @@
    
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         <i class="fa-solid fa-stethoscope"></i>
         <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,36 +39,34 @@
     <span class="ins col">
         <main class="row content topcon" >
             <label class="col-lg-2 col-m-1"for="name">Name : </label>
-            <input class =" col-8 inputs " type="text" placeholder="Enter Your Name" id="name">
+            <input class =" col-lg-8 col-m-4 col-sm-2 inputs " type="text" placeholder="Enter Your Name" id="name">
         </main>
        <main class="row content">
-            <label class="col-2" for="id">ID : </label>
-            <input  class =" col-8 inputs"  type="number" placeholder="Enter Your ID" id="id" min="100000000000000" max="99999999999999" required>
+            <label class="col-lg-2 col-m-1" for="id">ID : </label>
+            <input  class =" col-lg-8 col-m-4 col-sm-5 inputs"  type="number" placeholder="Enter Your ID" id="id" min="100000000000000" max="99999999999999" required>
        </main>
-       <main  class="row twobtn">
-        <button onclick="addnew()" class="btn btn-primary col-4 editbtn">
+       <main  class="row twobtn col-lg-8 col-md-4 col-sm-4">
+        <button onclick="addnew()" class="btn btn-primary col-lg-4  editbtn">
              <a href="#">
                 Search 
                </a>  
         </button>
-        <button onclick="addnew()" class="btn btn-warning col-4 editbtn">
+        <button onclick="addnew()" class="btn btn-warning col-lg-4  editbtn">
            <a href="#" >
             Add New 
            </a> 
         </button>
        </main>
        
-       <img class="doctor" src="img/img1.jpg" alt="">
+       <img class="doctor col-lg-4 col-md-2 col-xs-4 " src="img/img1.jpg" alt="">
        
     </span>
-   
-<div id="fixedname"></div>
-</div>
+
 
 
     <script src="js/all.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>

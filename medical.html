@@ -9,7 +9,7 @@
 <body id="body">
     <img class="imbo bg-light" src="img/img4new.jpg">
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         <i class="fa-solid fa-stethoscope"></i>
         <a class="navbar-brand ml-2" href="#"> Healthy Clinic</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
         <div id="mySidepanel" class="sidepanel" >
             <span class="sideright">
 
-                <button class="openbtn" id="openbtn" ><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
+            <button class="openbtn" id="openbtn" ><i class="fa-solid fa-arrow-right-from-bracket"></i></button>
             <button class="closebtn " id="closebtn">&times;</button>
             <a class="menuitem mt-5 " href="addnew.html">Basic Info</a>
             <a class="menuitem  text-light menufocus" href="medical.html">Medical History</a>
@@ -48,11 +48,12 @@
           </span>
         </div>
         <div class="row maincon" id="maincon">
-            <span class="fixedinput">
-                <div class="col-1"><h5> Name :</h5></div>
-                <div  class="col-3 mt-2"><p id="fixedname">Engy Fayek Adeeb</p></div>
-                <div  class="col-1"><h5>ID :</h5></div>
-                <div  class="col-3 mt-2"><p id="fixedid" >29711010100634</p></div>
+            <span class="fixedinput row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><h5> Name :</h5></div>
+                  
+                  <div  class="col-lg-7 col-md-7 col-sm-7 col-xs-7"><p id="fixedname">Engy Fayek Adeeb</p></div>
+                  <div  class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><h5>ID :</h5></div> 
+                <div  class="col-lg-7 col-md-7 col-sm-7 mt-2 col-xs-7"><p id="fixedid" >29711010100634</p></div>
   
             </span >
             <!-- <main class="row mesuarements">
@@ -70,42 +71,42 @@
 
             <main class="row history">
               <section>
-                <button class="newbtn col-4 disabled">
+                <button class="newbtn col-lg-4 col-md-6 col-sm-8  disabled">
                   Surgiries :عمليات جراحية  
                 </button>
                 <div class="container addition" id="addition">
                   <div class="surgiries row">
-                    <label><input type="checkbox" class="choice" value="Appendectomy">Appendectomy (الزايدة)</label>
+                    <label><input type="checkbox" class="choice col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Appendectomy">Appendectomy (الزايدة)</label>
                   </div>
                   <div class="surgiries row">
-                    <label><input type="checkbox" class="choice" value="Open heart">Open heart  (قلب مفتوح)</label>
+                    <label><input type="checkbox" class="choice col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Open heart">Open heart  (قلب مفتوح)</label>
                   </div>
                   <div class="surgiries row">
-                    <label><input type="checkbox" class="choice" value="Gallbladder operation ">Gallbladder operation  (مرارة)</label>
+                    <label><input type="checkbox" class="choice col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Gallbladder operation ">Gallbladder operation  (مرارة)</label>
                   </div>
-                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries " id="other">
+                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries col-lg-2 col-md-3 col-sm-4 col-xs-4" id="other">
           
                 </div>
 
               </section>
               <section>
-              <button class="newbtn col-4 disabled">
+              <button class="newbtn  disabled col-lg-4 col-md-6 col-sm-8 ">
                 Chronic Diseases ( امراض مزمنة  )
               </button>
               <div class="container addition" id="additionn">
                 <div class="surgiries row">
-                  <label><input type="checkbox" class="choice2" value="High pressure" >High pressure (الضغط المرتفع)</label>
+                  <label><input type="checkbox" class="choice2 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="High pressure" >High pressure (الضغط المرتفع)</label>
                 </div>
                 <div class="surgiries row">
-                  <label><input type="checkbox" class="choice2" value="Low pressure">Low pressure  (الضغط المنخفض)</label>
+                  <label><input type="checkbox" class="choice2 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Low pressure">Low pressure  (الضغط المنخفض)</label>
                 </div>
                 <div class="surgiries row">
-                  <label><input type="checkbox" class="choice2" value="Heart disease">Heart disease  (القلب)</label>
+                  <label><input type="checkbox" class="choice2 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Heart disease">Heart disease  (القلب)</label>
                 </div>
                 <div class="surgiries row">
-                  <label><input type="checkbox" class="choice2" value="Diabetes">Diabetes (السكر)</label>
+                  <label><input type="checkbox" class="choice2 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Diabetes">Diabetes (السكر)</label>
                 </div>
-                  <input type="text" placeholder="Other  (اخرى)" class=" surgiries" id="other2">
+                  <input type="text" placeholder="Other  (اخرى)" class=" surgiries col-lg-2 col-md-3 col-sm-4 col-xs-4" id="other2">
                 
               </div>
 
@@ -113,17 +114,17 @@
               </section> 
 
               <section>
-                <button class="newbtn col-4 disabled">
+                <button class="newbtn disabled col-lg-4 col-md-6 col-sm-8 ">
                   Allergtic :حساسية  
                 </button>
                 <div class="container addition" id="additionnn">
                   <div class="surgiries row">
-                    <label><input type="checkbox" class="choice3" value="Chest">Chest (الصدر)</label>
+                    <label><input type="checkbox" class="choice3 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Chest">Chest (الصدر)</label>
                   </div>
                   <div class="surgiries row">
-                    <label><input type="checkbox" class="choice3" value="Sinuses">Sinuses (جيوب انفية)</label>
+                    <label><input type="checkbox" class="choice3 col-lg-2 col-md-3 col-sm-4 col-xs-4" value="Sinuses">Sinuses (جيوب انفية)</label>
                   </div>
-                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries" id="other3">
+                  <input type="text" placeholder="Other  (اخرى)"  class=" surgiries col-lg-2 col-md-3 col-sm-4 col-xs-4" id="other3">
                 </div>
   
                 
@@ -131,7 +132,7 @@
                 <section class="row">
                   
                   <section>
-                    <button class="newbtn col-5  surgiries ">
+                    <button class="newbtn col-lg-4 col-md-6 col-sm-8  surgiries ">
                     Blood type :فصيلة الدم  
                   </button>
                      <select id="Blood" class="surgiries newbtn " style="border: none; background-color :rgba(255, 255, 255, 0.52) ; font-weight: 500;">
@@ -151,10 +152,11 @@
                       <option value="not known">not known</option>
           
                     </select>
-                    <div>
-                      <button onclick="historyadded()" class="btn submit col-2 mt-1" style="font-size: 20px;">Submit</button>
+
+                    
+                  </section><div>
+                      <button onclick="historyadded()" class="btn submit col-2 mt-2 ">Submit</button>
                     </div>
-                  </section>
                   </section> 
                   
 
